@@ -1,0 +1,88 @@
+h1
+{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.container.app-container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    height: 250px;
+    min-width: 50vw;
+    max-width: 55vw;
+    border-radius: calc(var(--base-border-radius) / 2);
+    box-shadow: var(--box-shadow);
+}
+
+.container.app-container header h3
+{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.container.app-container .container.app-content-container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+
+.container.app-container .container.app-content-container>*
+{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container.app-container .container.app-content-container input
+{
+    font-family: inherit;
+    color: var(--primary-text-color);
+    font-size: 18px;
+    border: 2px solid var(--primary-text-color);
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: calc(var(--base-border-radius) / 2);
+    transition: box-shadow .15s ease-in;
+}
+
+.container.app-container .container.app-content-container input:focus
+{
+    box-shadow: inset var(--box-shadow);
+    transition: box-shadow .15s ease-in;
+}
+
+.container.app-container .container.app-content-container button
+{
+    font-family: inherit;
+    display: inline-block;
+    margin-top: 70px;
+    background-color: var(--button-background-color);
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: calc(var(--base-border-radius) / 2);
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    letter-spacing: 2px;
+    font-size: 17px;
+    box-shadow: var(--box-shadow);
+}
+
+.container.app-container .container.app-content-container button:active
+{
+    box-shadow: none;
+}

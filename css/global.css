@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald: 100, 200, 300, 400, 500, 600, 700, 800, 900');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--body-background-color);
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]
+{
+    -moz-appearance: textfield;
+}
